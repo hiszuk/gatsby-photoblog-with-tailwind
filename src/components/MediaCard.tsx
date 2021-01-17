@@ -34,7 +34,7 @@ const MediaCard: React.FC<MediaCardProps> = (props) => {
             </Link>
           </div>
           <div className="justify-self-end flex flex-row text-neutral-500">
-            <DateIcon className="w-4 mx-1 fill-current" />
+            <DateIcon className="w-4 h-4 mx-1 fill-current" />
             <p className="text-sm">{props.date}</p>
           </div>
         </div>
