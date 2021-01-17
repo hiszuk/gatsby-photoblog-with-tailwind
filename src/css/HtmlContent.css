@@ -1,0 +1,133 @@
+#html-content {
+  width: 100%;
+}
+#html-content h1 {
+  font-size: 1.75rem;
+  border-left: 5px solid gray;
+  border-bottom: 1px solid gray;
+  margin: 0 0 1rem -0.5rem;
+  padding-left: 0.3rem; 
+}
+#html-content h2 {
+  font-size: 1.25rem;
+  border-bottom: 1px solid gray;
+  margin: 0 0 1rem; 
+}
+#html-content h3 {
+  font-size: 1.2rem;
+  margin: 0 0 1rem; 
+}
+#html-content h4 {
+  font-size: 1.1rem;
+  margin: 0 0 1rem; 
+}
+#html-content h5 {
+  font-size: 1.05rem;
+  margin: 0 0 1rem; 
+}
+#html-content h6 {
+  font-size: 1rem;
+  margin: 0 0 1rem; 
+}
+
+#html-content .task-list-item {
+  list-style: none;
+}
+
+#html-content input[type='checkbox'] {
+  appearance: checkbox;
+  position: relative;
+  top: -1px;
+}
+
+#html-content hr {
+  border: 0;
+  height: 1px;
+  background: gray;
+  margin: 0 0 1.25rem;
+}
+
+#html-content blockquote {
+  border-left: 2px solid gray;
+  margin: 0 0 1.75rem;
+  padding: 0.5rem;
+  font-style: italic;
+}
+
+#html-content ul {
+  line-height: 1.5;
+  margin: 0 0 1.75rem;
+}
+#html-content ul li {
+  list-style: disc;
+  list-style-position: inside;
+  margin: 0 0 0.5rem 0;
+}
+
+#html-content ol {
+  line-height: 1.5;
+  margin: 0 0 1.75rem;
+}
+#html-content ol li {
+  list-style: decimal;
+  list-style-position: inside;
+  margin: 0 0 0.5rem 0;
+}
+
+#html-content table {
+  display: block;
+  overflow: auto;
+  width: 100%;
+  margin: 0 0 1.75rem;
+}
+#html-content table td, th{
+  padding: 0;
+  vertical-align: center !important;
+  border-bottom: 1px solid gray;
+  padding: 0.4rem 0.75rem;
+}
+#html-content table th {
+  font-weight: 600;
+}
+#html-content table td {
+  line-height: 1.2;
+}
+#html-content table th {
+  border-top: 2px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+#html-content code {
+  font-family: "Courie New", Consolas, Monaco, monospace !important;
+  font-size: 0.9rem !important;
+  font-style: italic;
+  padding: 0.25rem !important;
+  opacity: 1;
+  border-radius: 3px !important;
+  background: #dddddd !important;
+}
+#html-content pre span {
+  text-shadow: none !important;
+  background: #404040 !important;
+  padding: 0 !important;
+}
+#html-content pre code {
+  font-style: normal;
+  background: #404040 !important;
+}
+#html-content pre {
+  margin: 0.5rem 0 1.75rem;
+  padding: 0.3rem 0.5rem;
+  text-shadow: none !important;
+  border: 0 !important;
+  border-radius: 3px !important;
+  background: #404040 !important;
+  color: white;
+}
+
+#html-content a {
+  transition: 0.3s color;
+  color: teal;
+  text-decoration: underline;
+  cursor: pointer;
+}
